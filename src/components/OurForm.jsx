@@ -279,8 +279,8 @@ const OurFormComponent = () => {
         name: "",
         company: "",
         address: "",
-        gst: "",
-        pan: "",
+        // gst: "",
+        // pan: "",
         date: "",
         adate: "",
         items: [
@@ -396,7 +396,7 @@ const OurFormComponent = () => {
                         required
                     />
 
-                    <label>GST Number:</label>
+                    {/* <label>GST Number:</label>
                     <input
                         type="text"
                         name="gst"
@@ -414,7 +414,7 @@ const OurFormComponent = () => {
                         value={formData.pan}
                         onChange={handleChange}
                         required
-                    />
+                    /> */}
 
                     <h3>Items</h3>
                     {formData.items.map((item, index) => (

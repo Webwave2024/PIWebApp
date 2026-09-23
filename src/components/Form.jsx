@@ -8,8 +8,8 @@ const FormComponent = () => {
         name: "",
         company: "",
         address: "",
-        gst: "",
-        pan: "",
+        // gst: "",
+        // pan: "",
         package: "",
         Tenure: "",
     });
@@ -67,7 +67,7 @@ const FormComponent = () => {
                         onChange={handleChange}
                         required
                     />
-                    <label>GST Number:</label>
+                    {/* <label>GST Number:</label>
                     <input
                         type="text"
                         name="gst"
@@ -75,8 +75,8 @@ const FormComponent = () => {
                         value={formData.gst}
                         onChange={handleChange}
                         required
-                    />
-                    <label>PAN Number:</label>
+                    /> */}
+                    {/* <label>PAN Number:</label>
                     <input
                         type="text"
                         name="pan"
@@ -84,7 +84,7 @@ const FormComponent = () => {
                         value={formData.pan}
                         onChange={handleChange}
                         required
-                    />
+                    /> */}
                     <label>Package:</label>
                     <select name="package" value={formData.package} onChange={handleChange} required>
                         <option value="">Select a Plan</option>

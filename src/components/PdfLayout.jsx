@@ -86,7 +86,7 @@ const PdfLayout = forwardRef(({ formData }, ref) => {
             <div id="pdf-content" style={pdfStyles.content}>
                 <div style={pdfStyles.header}>
                     <img src={logo} alt="Company Logo" style={pdfStyles.logo} />
-                    <h2 style={pdfStyles.title}>TAX INVOICE</h2>
+                    <h2 style={pdfStyles.title}>PERFORMANCE INVOICE</h2>
                 </div>
 
                 <div style={pdfStyles.detailsRow}>
@@ -99,8 +99,8 @@ const PdfLayout = forwardRef(({ formData }, ref) => {
                     <div style={pdfStyles.billedByColumn}>
                         <h3 style={pdfStyles.sectionTitle}>Billed By:</h3>
                         <p style={pdfStyles.detailItem}>WebWave Business Pvt. Ltd.</p>
-                        <p style={pdfStyles.detailItem}>S-21 1st Floor Ajay Enclave</p>
-                        <p style={pdfStyles.detailItem}>Subhash Nagar, New Delhi 110027</p>
+                        <p style={pdfStyles.detailItem}>1/34, 4th floor,</p>
+                        <p style={pdfStyles.detailItem}>Tilak Nagar, Mall Road, New Delhi – 110018</p>
                         <p style={pdfStyles.detailItem}><strong>GSTIN:</strong> 07AADCW8027D1ZE</p>
                         <p style={pdfStyles.detailItem}><strong>PAN:</strong> AADCW8027D</p>
                     </div>
@@ -110,8 +110,8 @@ const PdfLayout = forwardRef(({ formData }, ref) => {
                         <p style={pdfStyles.detailItem}>{formatField(formData?.name)}</p>
                         <p style={pdfStyles.detailItem}>{formatField(formData?.company)}</p>
                         <p style={pdfStyles.detailItem}>{formatField(formData?.address)}</p>
-                        {formData?.gst && <p style={pdfStyles.detailItem}><strong>GSTIN:</strong> {formData.gst}</p>}
-                        {formData?.pan && <p style={pdfStyles.detailItem}><strong>PAN:</strong> {formData.pan}</p>}
+                        {/* {formData?.gst && <p style={pdfStyles.detailItem}><strong>GSTIN:</strong> {formData.gst}</p>}
+                        {formData?.pan && <p style={pdfStyles.detailItem}><strong>PAN:</strong> {formData.pan}</p>} */}
                     </div>
                 </div>
 
