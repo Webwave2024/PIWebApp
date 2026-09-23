@@ -188,12 +188,12 @@ const PdfLayout = forwardRef(({ formData }, ref) => {
                 </div>
                 <div style={pdfStyles.bankBox}>
                     <h3 style={pdfStyles.bankBoxTitle}>Billed By:</h3>
-                    <p style={pdfStyles.detailItem}><strong>Account Name:</strong> WEBWAVE BUSINESS PRIVATE LIMITED </p>
-                    <p style={pdfStyles.detailItem}><strong>Account Number:</strong> 44576387700</p>
-                    <p style={pdfStyles.detailItem}><strong>IFSC:</strong> SBIN0021275</p>
-                    <p style={pdfStyles.detailItem}><strong>Branch Name:</strong> GANESH NAGAR</p>
+                    <p style={pdfStyles.detailItem}><strong>Account Name:</strong> WEBWAVE BUSINESS PVT LTD. </p>
+                    <p style={pdfStyles.detailItem}><strong>Account Number:</strong> 50200120538051</p>
+                    <p style={pdfStyles.detailItem}><strong>IFSC:</strong> HDFC0001443</p>
+                    <p style={pdfStyles.detailItem}><strong>Branch Name:</strong> TILAK NAGAR</p>
                     <p style={pdfStyles.detailItem}>
-                        <strong>Address:</strong> B-1/32, GROUND FLOOR GANESH NAGAR JANAKPURI NEW DELHI 110058
+                        <strong>Address:</strong> TILAK NAGAR,  NEW DELHI 110058
                     </p>
                 </div>
                 <div style={pdfStyles.signatureContainer}>
