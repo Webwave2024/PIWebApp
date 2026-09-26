@@ -86,7 +86,7 @@ const PdfLayout = forwardRef(({ formData }, ref) => {
             <div id="pdf-content" style={pdfStyles.content}>
                 <div style={pdfStyles.header}>
                     <img src={logo} alt="Company Logo" style={pdfStyles.logo} />
-                    <h2 style={pdfStyles.title}>PERFORMANCE INVOICE</h2>
+                    <h2 style={pdfStyles.title}>PROFORMA INVOICE</h2>
                 </div>
 
                 <div style={pdfStyles.detailsRow}>
