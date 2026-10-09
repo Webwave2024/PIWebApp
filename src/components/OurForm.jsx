@@ -271,7 +271,7 @@
 
 import { useState, useRef } from "react";
 import "./FormCss.css";
-import logo from "../components/logo.png";
+import logo from "../components/logo.jpeg";
 import PdfLayout from "../components/PdfLayout";
 
 const OurFormComponent = () => {

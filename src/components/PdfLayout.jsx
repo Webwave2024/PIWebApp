@@ -1,6 +1,6 @@
 ﻿import React, { forwardRef, useImperativeHandle } from "react";
 import html2pdf from "html2pdf.js";
-import logo from "../components/logo.png";
+import logo from "../components/logo.jpeg";
 
 const PdfLayout = forwardRef(({ formData }, ref) => {
     const financialYear = "2026-27";
